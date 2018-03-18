@@ -4,4 +4,13 @@ The **Portfolio** Theme is for [Grav CMS](http://github.com/getgrav/grav).  This
 
 ## Description
 
-Portfolio Theme
+Portfolio Theme includes
+
+- Bulma forms 
+- Carousel
+- Testimonials
+- Product Modals
+
+Almost all have beenn done to be changed and updated from the Admin UI (tabs and options to select items)
+
+For any bugs / features dont hesitate to open an issue and suggest them
