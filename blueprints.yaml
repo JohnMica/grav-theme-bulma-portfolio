@@ -4,9 +4,9 @@ description: Portfolio Theme
 icon: rebel
 author:
   name: John Mica
-  email: johnmica@johnmica.me
+  email: john@johnmica.me
 homepage: https://github.com/john-mica/grav-theme-portfolio
-demo: http://demo.yoursite.com
+# demo: http://demo.yoursite.com
 keywords: grav, theme, etc
 bugs: https://github.com/john-mica/grav-theme-portfolio/issues
 readme: https://github.com/john-mica/grav-theme-portfolio/blob/develop/README.md
