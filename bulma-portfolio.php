@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class Portfolio extends Theme
+class BulmaPortfolio extends Theme
 {
     // Access plugin events in this class
 }

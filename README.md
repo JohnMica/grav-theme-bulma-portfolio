@@ -1,13 +1,13 @@
-# Portfolio Theme
+# Bulma Portfolio Theme
 
-The **Portfolio** Theme is for [Grav CMS](http://github.com/getgrav/grav).  
+The **Bulma Portfolio** Theme is for [Grav CMS](http://github.com/getgrav/grav).  
 
 
 ![Theme Preview](./assets/normal-view.png)
 
 ## Description
 
-Portfolio Theme includes
+Bulma Portfolio Theme includes
 
 - Bulma forms 
 - Carousel
