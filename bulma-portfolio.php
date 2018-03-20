@@ -5,5 +5,5 @@ use Grav\Common\Theme;
 
 class BulmaPortfolio extends Theme
 {
-    // Access plugin events in this class
+ 
 }
