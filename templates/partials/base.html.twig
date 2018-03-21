@@ -12,8 +12,11 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       {% include 'partials/metadata.html.twig' %}
-
-      <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}"/>
+{# setting a favicon using mediapicker #}
+{% set image_parts = pathinfo(theme_config.theme.favicon) %}
+{% set image_basename = image_parts.basename %}
+{% set image_page = image_parts.dirname == '.' ? page: page.find(image_parts.dirname) %}
+<link rel="icon" type="image/png" href="{{ image_page.media[image_basename].url }}"/>
       <link rel="canonical" href="{{ page.url(true, true) }}"/>
     
       {% block stylesheets %}

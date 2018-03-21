@@ -38,3 +38,9 @@ form:
         .link:
           type: text
           label: link
+    theme.logo:
+      type: mediapicker
+      label: Theme logo 
+    theme.favicon:
+      type: mediapicker
+      label: Theme Favicon
