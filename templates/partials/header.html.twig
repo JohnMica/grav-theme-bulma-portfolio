@@ -6,7 +6,11 @@
       <nav class="navbar  {% if theme_config.fixed.navigation %} is-fixed-top {% endif %}" role='navigation' aria-label='main navigation'>   
         <div class="navbar-brand">
           <a class="navbar-item" href="{{ base_url == '' ? '/' : base_url }}">
-            <object type='image/svg+xml' data="{{ url('theme://images/logo.svg') }}" alt="{{ site.title }} image" width="180" > </object>
+{# changing a logo using mediapicker #}
+{% set image_parts = pathinfo(theme_config.theme.logo) %}
+{% set image_basename = image_parts.basename %}
+{% set image_page = image_parts.dirname == '.' ? page: page.find(image_parts.dirname) %}
+<object type='image/svg+xml' data="{{ image_page.media[image_basename].url }}" alt="{{ site.title }} image" width="180"></object>
           </a>
           <button class="button navbar-burger" data-target="navMenu">
             <span></span>
