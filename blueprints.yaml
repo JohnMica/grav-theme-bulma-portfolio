@@ -5,11 +5,11 @@ icon: rebel
 author:
   name: John Mica
   email: john@johnmica.me
-homepage: https://github.com/john-mica/grav-theme-bulma-portfolio
+homepage: https://github.com/JohnMica/grav-theme-bulma-portfolio
 # demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://github.com/john-mica/grav-theme-bulma-portfolio/issues
-readme: https://github.com/john-mica/grav-theme-bulma-portfolio/blob/develop/README.md
+bugs: https://github.com/JohnMica/grav-theme-bulma-portfolio/issues
+readme: https://github.com/JohnMica/grav-theme-bulma-portfolio/blob/develop/README.md
 license: MIT
 
 form:
