@@ -12,11 +12,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       {% include 'partials/metadata.html.twig' %}
-{# setting a favicon using mediapicker #}
-{% set image_parts = pathinfo(theme_config.theme.favicon) %}
-{% set image_basename = image_parts.basename %}
-{% set image_page = image_parts.dirname == '.' ? page: page.find(image_parts.dirname) %}
-<link rel="icon" type="image/png" href="{{ image_page.media[image_basename].url }}"/>
+        {% set image_parts = pathinfo(grav.theme.config.theme.favicon) %}
+        <link rel="icon" type="image/png" href="{{ url('theme://assets') }}/{{ image_parts.basename }}”/>
+
+
       <link rel="canonical" href="{{ page.url(true, true) }}"/>
     
       {% block stylesheets %}

@@ -25,6 +25,37 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
+
+    theme.upload_image:
+        type: file
+        label: Upload Images
+        destination: 'theme@:/assets'
+        autofocus: false
+        multiple: true
+        random_name: false
+        avoid_overwriting: false
+        limit: 5
+        accept:
+          - image/*
+    theme.logo:
+      type: filepicker
+      folder: 'theme@:/assets'
+      label: Chose Theme Logo 
+      preview_images: true
+      accept:
+        - .svg
+        - .png
+        - .jpg
+        - .jpeg
+    theme.favicon:
+      type: filepicker
+      folder: 'theme@:/images'
+      label: Theme Favicon
+      preview_images: true
+      accept:
+        - .jpg
+        - .png
+        - .jpeg    
     footer.copyright:
       type: text
       label: Footer Copyright
@@ -38,9 +69,3 @@ form:
         .link:
           type: text
           label: link
-    theme.logo:
-      type: mediapicker
-      label: Theme logo 
-    theme.favicon:
-      type: mediapicker
-      label: Theme Favicon
