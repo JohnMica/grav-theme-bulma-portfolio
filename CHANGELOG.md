@@ -1,3 +1,9 @@
+# v0.1.6
+##  26/03/2018
+1. [](#improved)
+    - logo upload and modification
+    - favicon upload and modification
+
 # v0.1.5
 ##  22/03/2018
 1. [](#new)
