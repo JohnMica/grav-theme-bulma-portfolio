@@ -1,3 +1,10 @@
+# v0.1.7
+##  30/03/2018
+1. [](#improved)
+    - logo upload and modification
+    - favicon upload and modification
+    - new release to upadte the GPM hopefully with latest changes
+
 # v0.1.6
 ##  26/03/2018
 1. [](#improved)
