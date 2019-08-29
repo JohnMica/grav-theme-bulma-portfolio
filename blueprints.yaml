@@ -49,7 +49,7 @@ form:
         - .jpeg
     theme.favicon:
       type: filepicker
-      folder: 'theme@:/images'
+      folder: 'theme@:/assets'
       label: Theme Favicon
       preview_images: true
       accept:
