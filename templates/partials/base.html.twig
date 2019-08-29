@@ -13,7 +13,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       {% include 'partials/metadata.html.twig' %}
         {% set image_parts = pathinfo(grav.theme.config.theme.favicon) %}
-        <link rel="icon" type="image/png" href="{{ url('theme://assets') }}/{{ image_parts.basename }}”/>
+        <link rel="icon" type="image/png" href="{{ url('theme://assets') }}/{{ image_parts.basename }}"/>
 
 
       <link rel="canonical" href="{{ page.url(true, true) }}"/>
